@@ -1,0 +1,5 @@
+---
+ios-xe-mgmt-latest.cisco.com:
+    hostname: ios-xe-mgmt-latest.cisco.com
+    groups:
+        - iosxe

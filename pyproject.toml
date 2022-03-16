@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "iosxe-guestshell-bounce"
+version = "0.1.0"
+description = "Simple Python script running in guestshell to bounce ports with a timer."
+authors = ["sambyers"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nornir = "^3.2.0"
+nornir-netmiko = "^0.1.2"
+nornir-scrapli = "^2022.1.30"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

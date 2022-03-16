@@ -1,0 +1,7 @@
+---
+global:
+  data:
+    domain: global.local
+    asn: 1
+iosxe:
+  platform: ios
