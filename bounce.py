@@ -8,7 +8,7 @@ interface = sys.argv[1]
 seconds = int(sys.argv[2])
 
 # Warning
-warning = input(f'Interface {interface} is about to be bounced with a {seconds} second delay. Are you sure? (y/n)')
+warning = input(f'Interface {interface} will be bounced with a {seconds} second delay. Are you sure? (y/n)')
 warning = warning.strip()
 warning = warning.lower()
 if not warning == 'y':

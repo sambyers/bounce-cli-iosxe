@@ -77,9 +77,9 @@ def main():
         )
     print_result(guestshell_config_results)
 
-    # Sleep because it can take 2 minutes for IOx to start
+    # Sleep because it can take 1-2 minutes for IOx to start
     # https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/175/b_175_programmability_cg/m_175_prog_guestshell.html
-    sleep(120)
+    sleep(60)
 
     # Enable guestshell
     guestshell_enable_results = nr.run(
