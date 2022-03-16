@@ -1,6 +1,6 @@
 # bounce-cli-iosxe
 
-*Caveat: Neither of these methods seem to run to completion if the SSH session ends. This means it wouldn't be useful in scenarios where bouncing a port would cause management session connectivity to break.*
+*Caveat: Neither of these methods seem to run to completion if the SSH session ends. This means it wouldn't be useful in scenarios where bouncing a port would cause management session connectivity to break. I'm researching how to run async from the management session.*
 
 This is a naive and simple implementation of a port bounce CLI in IOS-XE. It gives operators a method to bounce a port in a single command. This could be useful when bouncing a port could cut off access to the network device or a command authorization server.
 ## Two Options
