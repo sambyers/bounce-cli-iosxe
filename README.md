@@ -1,8 +1,8 @@
 # bounce-cli-iosxe
 This is a naive and simple implementation of a port bounce CLI in IOS-XE. It gives operators a method to bounce a port in a single command. This could be useful when bouncing a port could cut off access to the network device or a command authorization server.
 ## Two Options
-1. Guestshell with a Python script
-2. Tcl script
+1. Tcl script
+2. Guestshell with a Python script
 
 ## TCL Script Usage
 ```
