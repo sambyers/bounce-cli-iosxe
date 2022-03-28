@@ -16,13 +16,13 @@ def main() -> None:
     # Copy script file to device flash
     script_file_result = nr.run(
         task=netmiko_file_transfer,
-        source_file='bounce.tcl',
+        source_file='bounce_en.tcl',
         dest_file='bounce.tcl',
         overwrite_file=True,
         name='Copy bounce.tcl script to network device.'
     )
     print_result(script_file_result)
-
+'''
     # Create alias for bounce
     alias_result = nr.run(
         task=send_configs,
@@ -30,6 +30,6 @@ def main() -> None:
         name='Create CLI alias.'
     )
     print_result(alias_result)
-
+'''
 if __name__ == '__main__':
     main()
